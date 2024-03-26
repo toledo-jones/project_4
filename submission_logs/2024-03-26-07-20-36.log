@@ -1,0 +1,28 @@
+[DEBUG] 2024-03-26 GMT-0400 07:20:36.143: The Username is set to (keyring app): cody.bogausch@sunycgcc.edu
+[DEBUG] 2024-03-26 GMT-0400 07:20:36.145: The Submission Password is set to (keyring app): ***
+[INFO] 2024-03-26 GMT-0400 07:20:36.146: Submission process STARTED.
+[INFO] 2024-03-26 GMT-0400 07:20:36.146: Asking for agreement.
+[DEBUG] 2024-03-26 GMT-0400 07:20:39.396: Agreement answer: I AGREE
+[DEBUG] 2024-03-26 GMT-0400 07:20:39.396: Task signature: sail2-project-author-classes-o-hcjnaayu-v2-99e93cca-3a95-4870-a91d-e546d9da694f
+[INFO] 2024-03-26 GMT-0400 07:20:39.396: Collecting information about context.
+[INFO] 2024-03-26 GMT-0400 07:20:39.461: Finding files for submission.
+[INFO] 2024-03-26 GMT-0400 07:20:39.461: Generating submission files for task 1.
+[INFO] 2024-03-26 GMT-0400 07:20:39.461: Evaluating task 1.
+[ERROR] 2024-03-26 GMT-0400 07:20:39.470: An unexpected error has occurred.
+Traceback (most recent call last):
+  File "<string>", line 70, in run
+  File "<string>", line 31, in generate_submission_archive
+  File "<string>", line 51, in __list_files_for_submission
+  File "<string>", line 65, in __generate_task_specific_files
+  File "<string>", line 34, in task1
+  File "<string>", line 345, in silent_import
+  File "<string>", line 343, in silent_import
+  File "/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'geometric_shapes'
+[INFO] 2024-03-26 GMT-0400 07:20:39.471: Finding files for cleanup.
+[INFO] 2024-03-26 GMT-0400 07:20:39.471: Cleanup finished.
+[INFO] 2024-03-26 GMT-0400 07:20:39.471: Submission process FINISHED.

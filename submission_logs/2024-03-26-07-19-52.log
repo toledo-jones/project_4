@@ -1,0 +1,32 @@
+[WARNING] 2024-03-26 GMT-0400 07:19:52.478: Could not find stored credentials.
+[INFO] 2024-03-26 GMT-0400 07:19:52.478: Asking for the Username.
+[DEBUG] 2024-03-26 GMT-0400 07:19:59.760: The provided Username has been stored in a keyring application.
+[WARNING] 2024-03-26 GMT-0400 07:19:59.761: Could not find stored credentials.
+[INFO] 2024-03-26 GMT-0400 07:19:59.761: Asking for the Submission Password.
+[DEBUG] 2024-03-26 GMT-0400 07:20:17.614: The provided Submission Password has been stored in a keyring application.
+[INFO] 2024-03-26 GMT-0400 07:20:17.614: Submission process STARTED.
+[INFO] 2024-03-26 GMT-0400 07:20:17.614: Asking for agreement.
+[DEBUG] 2024-03-26 GMT-0400 07:20:22.210: Agreement answer: I AGREE
+[DEBUG] 2024-03-26 GMT-0400 07:20:22.210: Task signature: sail2-project-author-classes-o-hcjnaayu-v2-99e93cca-3a95-4870-a91d-e546d9da694f
+[INFO] 2024-03-26 GMT-0400 07:20:22.210: Collecting information about context.
+[INFO] 2024-03-26 GMT-0400 07:20:22.276: Finding files for submission.
+[INFO] 2024-03-26 GMT-0400 07:20:22.276: Generating submission files for task 1.
+[INFO] 2024-03-26 GMT-0400 07:20:22.276: Evaluating task 1.
+[ERROR] 2024-03-26 GMT-0400 07:20:22.284: An unexpected error has occurred.
+Traceback (most recent call last):
+  File "<string>", line 70, in run
+  File "<string>", line 31, in generate_submission_archive
+  File "<string>", line 51, in __list_files_for_submission
+  File "<string>", line 65, in __generate_task_specific_files
+  File "<string>", line 34, in task1
+  File "<string>", line 345, in silent_import
+  File "<string>", line 343, in silent_import
+  File "/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'geometric_shapes'
+[INFO] 2024-03-26 GMT-0400 07:20:22.285: Finding files for cleanup.
+[INFO] 2024-03-26 GMT-0400 07:20:22.285: Cleanup finished.
+[INFO] 2024-03-26 GMT-0400 07:20:22.285: Submission process FINISHED.

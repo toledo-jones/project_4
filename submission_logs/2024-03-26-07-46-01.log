@@ -1,0 +1,22 @@
+[WARNING] 2024-03-26 GMT-0400 07:46:01.391: Could not find stored credentials.
+[INFO] 2024-03-26 GMT-0400 07:46:01.392: Asking for the Username.
+[DEBUG] 2024-03-26 GMT-0400 07:46:09.948: The provided Username has been stored in a keyring application.
+[WARNING] 2024-03-26 GMT-0400 07:46:09.949: Could not find stored credentials.
+[INFO] 2024-03-26 GMT-0400 07:46:09.950: Asking for the Submission Password.
+[DEBUG] 2024-03-26 GMT-0400 07:46:15.306: The provided Submission Password has been stored in a keyring application.
+[INFO] 2024-03-26 GMT-0400 07:46:15.307: Submission process STARTED.
+[INFO] 2024-03-26 GMT-0400 07:46:15.307: Asking for agreement.
+[DEBUG] 2024-03-26 GMT-0400 07:46:17.936: Agreement answer: I AGREE
+[DEBUG] 2024-03-26 GMT-0400 07:46:17.936: Task signature: sail2-project-author-classes-o-hcjnaayu-v2-2be22140-7ca8-4f10-8002-818e50c47d08
+[INFO] 2024-03-26 GMT-0400 07:46:17.936: Collecting information about context.
+[INFO] 2024-03-26 GMT-0400 07:46:18.003: Finding files for submission.
+[INFO] 2024-03-26 GMT-0400 07:46:18.003: Generating submission files for task 2.
+[INFO] 2024-03-26 GMT-0400 07:46:18.003: Evaluating task 2.
+[INFO] 2024-03-26 GMT-0400 07:46:18.133: Submission archive generated.
+[INFO] 2024-03-26 GMT-0400 07:46:18.133: Sending the submission to Sail() Auto-grading Service.
+[DEBUG] 2024-03-26 GMT-0400 07:46:19.052: AGS Success: True
+[DEBUG] 2024-03-26 GMT-0400 07:46:19.053: AGS Status: 200
+[DEBUG] 2024-03-26 GMT-0400 07:46:19.053: AGS Message: Your submission is in processing, submission token is: cody.bogausch@sunycgcc.edu_project-author-classes-o-hcjnaayu_2be22140-7ca8-4f10-8002-818e50c47d08_1251723888 Wait and check your code, score and feedback on your Learning Management System.
+[INFO] 2024-03-26 GMT-0400 07:46:19.056: Finding files for cleanup.
+[INFO] 2024-03-26 GMT-0400 07:46:19.057: Cleanup finished.
+[INFO] 2024-03-26 GMT-0400 07:46:19.057: Submission process FINISHED.
