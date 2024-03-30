@@ -1,0 +1,29 @@
+[WARNING] 2024-03-28 GMT-0400 07:46:55.035: Could not find stored credentials.
+[INFO] 2024-03-28 GMT-0400 07:46:55.035: Asking for the Username.
+[DEBUG] 2024-03-28 GMT-0400 07:47:06.912: The provided Username has been stored in a keyring application.
+[WARNING] 2024-03-28 GMT-0400 07:47:06.913: Could not find stored credentials.
+[INFO] 2024-03-28 GMT-0400 07:47:06.913: Asking for the Submission Password.
+[DEBUG] 2024-03-28 GMT-0400 07:47:12.046: The provided Submission Password has been stored in a keyring application.
+[INFO] 2024-03-28 GMT-0400 07:47:12.046: Submission process STARTED.
+[INFO] 2024-03-28 GMT-0400 07:47:12.046: Asking for agreement.
+[DEBUG] 2024-03-28 GMT-0400 07:47:14.820: Agreement answer: I AGREE
+[DEBUG] 2024-03-28 GMT-0400 07:47:14.820: Task signature: sail2-project-author-classes-o-hcjnaayu-v2-c82f9dd1-8ae0-4e70-852c-5ecc03cead51
+[INFO] 2024-03-28 GMT-0400 07:47:14.820: Collecting information about context.
+[INFO] 2024-03-28 GMT-0400 07:47:14.884: Finding files for submission.
+[INFO] 2024-03-28 GMT-0400 07:47:14.884: Generating submission files for task 3.
+[INFO] 2024-03-28 GMT-0400 07:47:14.884: Evaluating task 3.
+[ERROR] 2024-03-28 GMT-0400 07:47:14.937: An unexpected error has occurred.
+Traceback (most recent call last):
+  File "<string>", line 70, in run
+  File "<string>", line 31, in generate_submission_archive
+  File "<string>", line 51, in __list_files_for_submission
+  File "<string>", line 65, in __generate_task_specific_files
+  File "<string>", line 360, in task3
+  File "<string>", line 329, in test_class
+  File "<string>", line 164, in test_methods
+  File "/Users/toledo/Documents/Media/Programs/PycharmProjects/ppp-p4-classes-objects/geometric_shapes.py", line 75, in get_side
+    return self.__side
+AttributeError: 'Square' object has no attribute '_Square__side'
+[INFO] 2024-03-28 GMT-0400 07:47:14.937: Finding files for cleanup.
+[INFO] 2024-03-28 GMT-0400 07:47:14.937: Cleanup finished.
+[INFO] 2024-03-28 GMT-0400 07:47:14.937: Submission process FINISHED.

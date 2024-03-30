@@ -1,0 +1,37 @@
+[DEBUG] 2024-03-28 GMT-0400 09:01:09.562: The Username is set to (keyring app): cody.bogausch@sunycgcc.edu
+[DEBUG] 2024-03-28 GMT-0400 09:01:09.564: The Submission Password is set to (keyring app): ***
+[INFO] 2024-03-28 GMT-0400 09:01:09.564: Submission process STARTED.
+[INFO] 2024-03-28 GMT-0400 09:01:09.564: Asking for agreement.
+[DEBUG] 2024-03-28 GMT-0400 09:01:13.204: Agreement answer: I AGREE
+[DEBUG] 2024-03-28 GMT-0400 09:01:13.204: Task signature: sail2-project-author-classes-o-hcjnaayu-v2-bf0a22c6-631b-4d8d-93a5-b6f9dc4b5ecd
+[INFO] 2024-03-28 GMT-0400 09:01:13.204: Collecting information about context.
+[INFO] 2024-03-28 GMT-0400 09:01:13.272: Finding files for submission.
+[INFO] 2024-03-28 GMT-0400 09:01:13.272: Generating submission files for task 5.
+[INFO] 2024-03-28 GMT-0400 09:01:13.272: Evaluating task 5.
+[ERROR] 2024-03-28 GMT-0400 09:01:13.275: An unexpected error has occurred.
+Traceback (most recent call last):
+  File "<string>", line 70, in run
+  File "<string>", line 31, in generate_submission_archive
+  File "<string>", line 51, in __list_files_for_submission
+  File "<string>", line 65, in __generate_task_specific_files
+  File "<string>", line 751, in task5
+  File "<string>", line 345, in silent_import
+  File "<string>", line 343, in silent_import
+  File "/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/toledo/Documents/Media/Programs/PycharmProjects/ppp-p4-classes-objects/geometric_shapes.py", line 2, in <module>
+    import utils
+  File "/Users/toledo/Documents/Media/Programs/PycharmProjects/ppp-p4-classes-objects/utils.py", line 28, in <module>
+    print(validate_positive_number(False))
+  File "/Users/toledo/Documents/Media/Programs/PycharmProjects/ppp-p4-classes-objects/utils.py", line 6, in validate_positive_number
+    raise InvalidArgumentError(number, f"Invalid Type: Accepted types are {type(int)}, {type(float)}")
+utils.InvalidArgumentError: The `False` (type `<class 'bool'>`) is invalid. Invalid Type: Accepted types are <class 'type'>, <class 'type'>
+[INFO] 2024-03-28 GMT-0400 09:01:13.275: Finding files for cleanup.
+[INFO] 2024-03-28 GMT-0400 09:01:13.276: Cleanup finished.
+[INFO] 2024-03-28 GMT-0400 09:01:13.276: Submission process FINISHED.

@@ -1,0 +1,25 @@
+[DEBUG] 2024-03-28 GMT-0400 07:51:51.915: The Username is set to (keyring app): cody.bogausch@sunycgcc.edu
+[DEBUG] 2024-03-28 GMT-0400 07:51:51.917: The Submission Password is set to (keyring app): ***
+[INFO] 2024-03-28 GMT-0400 07:51:51.917: Submission process STARTED.
+[INFO] 2024-03-28 GMT-0400 07:51:51.917: Asking for agreement.
+[DEBUG] 2024-03-28 GMT-0400 07:51:54.335: Agreement answer: I AGREE
+[DEBUG] 2024-03-28 GMT-0400 07:51:54.336: Task signature: sail2-project-author-classes-o-hcjnaayu-v2-c82f9dd1-8ae0-4e70-852c-5ecc03cead51
+[INFO] 2024-03-28 GMT-0400 07:51:54.336: Collecting information about context.
+[INFO] 2024-03-28 GMT-0400 07:51:54.393: Finding files for submission.
+[INFO] 2024-03-28 GMT-0400 07:51:54.393: Generating submission files for task 3.
+[INFO] 2024-03-28 GMT-0400 07:51:54.393: Evaluating task 3.
+[ERROR] 2024-03-28 GMT-0400 07:51:54.445: An unexpected error has occurred.
+Traceback (most recent call last):
+  File "<string>", line 70, in run
+  File "<string>", line 31, in generate_submission_archive
+  File "<string>", line 51, in __list_files_for_submission
+  File "<string>", line 65, in __generate_task_specific_files
+  File "<string>", line 360, in task3
+  File "<string>", line 329, in test_class
+  File "<string>", line 164, in test_methods
+  File "/Users/toledo/Documents/Media/Programs/PycharmProjects/ppp-p4-classes-objects/geometric_shapes.py", line 75, in get_side
+    return self.__side
+AttributeError: 'Square' object has no attribute '_Square__side'
+[INFO] 2024-03-28 GMT-0400 07:51:54.446: Finding files for cleanup.
+[INFO] 2024-03-28 GMT-0400 07:51:54.446: Cleanup finished.
+[INFO] 2024-03-28 GMT-0400 07:51:54.446: Submission process FINISHED.

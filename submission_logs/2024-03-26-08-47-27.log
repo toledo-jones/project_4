@@ -1,0 +1,22 @@
+[DEBUG] 2024-03-26 GMT-0400 08:47:27.326: The Username is set to (keyring app): cody.bogausch@sunycgcc.edu
+[DEBUG] 2024-03-26 GMT-0400 08:47:27.329: The Submission Password is set to (keyring app): ***
+[INFO] 2024-03-26 GMT-0400 08:47:27.330: Submission process STARTED.
+[INFO] 2024-03-26 GMT-0400 08:47:27.330: Asking for agreement.
+[DEBUG] 2024-03-26 GMT-0400 08:47:30.354: Agreement answer: I AGREE
+[DEBUG] 2024-03-26 GMT-0400 08:47:30.354: Task signature: sail2-project-author-classes-o-hcjnaayu-v2-c82f9dd1-8ae0-4e70-852c-5ecc03cead51
+[INFO] 2024-03-26 GMT-0400 08:47:30.354: Collecting information about context.
+[INFO] 2024-03-26 GMT-0400 08:47:30.415: Finding files for submission.
+[INFO] 2024-03-26 GMT-0400 08:47:30.416: Generating submission files for task 3.
+[INFO] 2024-03-26 GMT-0400 08:47:30.416: Evaluating task 3.
+[INFO] 2024-03-26 GMT-0400 08:47:30.582: Submission archive generated.
+[INFO] 2024-03-26 GMT-0400 08:47:30.582: Sending the submission to Sail() Auto-grading Service.
+[DEBUG] 2024-03-26 GMT-0400 08:47:31.287: AGS Success: False
+[DEBUG] 2024-03-26 GMT-0400 08:47:31.287: AGS Status: 412
+[DEBUG] 2024-03-26 GMT-0400 08:47:31.287: AGS Message: You have a pending submission. Please try later.
+[DEBUG] 2024-03-26 GMT-0400 08:47:31.306: Username has been removed from a keyring application.
+[DEBUG] 2024-03-26 GMT-0400 08:47:31.306: An attempt to remove USERNAME from .sailconfig.json was not successful.
+[DEBUG] 2024-03-26 GMT-0400 08:47:31.318: Submission Password has been removed from a keyring application.
+[DEBUG] 2024-03-26 GMT-0400 08:47:31.318: An attempt to remove SUBMISSION_PASSWORD from .sailconfig.json was not successful.
+[INFO] 2024-03-26 GMT-0400 08:47:31.318: Finding files for cleanup.
+[INFO] 2024-03-26 GMT-0400 08:47:31.318: Cleanup finished.
+[INFO] 2024-03-26 GMT-0400 08:47:31.318: Submission process FINISHED.

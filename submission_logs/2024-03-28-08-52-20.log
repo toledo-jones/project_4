@@ -1,0 +1,23 @@
+[DEBUG] 2024-03-28 GMT-0400 08:52:20.831: The Username is set to (keyring app): cody.bogausch@sunycgcc.edu
+[DEBUG] 2024-03-28 GMT-0400 08:52:20.833: The Submission Password is set to (keyring app): ***
+[INFO] 2024-03-28 GMT-0400 08:52:20.833: Submission process STARTED.
+[INFO] 2024-03-28 GMT-0400 08:52:20.833: Asking for agreement.
+[DEBUG] 2024-03-28 GMT-0400 08:52:25.860: Agreement answer: I AGREE
+[DEBUG] 2024-03-28 GMT-0400 08:52:25.861: Task signature: sail2-project-author-classes-o-hcjnaayu-v2-bf0a22c6-631b-4d8d-93a5-b6f9dc4b5ecd
+[INFO] 2024-03-28 GMT-0400 08:52:25.861: Collecting information about context.
+[INFO] 2024-03-28 GMT-0400 08:52:25.928: Finding files for submission.
+[INFO] 2024-03-28 GMT-0400 08:52:25.928: Generating submission files for task 5.
+[INFO] 2024-03-28 GMT-0400 08:52:25.928: Evaluating task 5.
+[ERROR] 2024-03-28 GMT-0400 08:52:25.954: An unexpected error has occurred.
+Traceback (most recent call last):
+  File "<string>", line 70, in run
+  File "<string>", line 31, in generate_submission_archive
+  File "<string>", line 51, in __list_files_for_submission
+  File "<string>", line 65, in __generate_task_specific_files
+  File "<string>", line 807, in task5
+  File "<string>", line 329, in test_class
+  File "<string>", line 146, in test_methods
+TypeError: __init__() takes 2 positional arguments but 3 were given
+[INFO] 2024-03-28 GMT-0400 08:52:25.954: Finding files for cleanup.
+[INFO] 2024-03-28 GMT-0400 08:52:25.954: Cleanup finished.
+[INFO] 2024-03-28 GMT-0400 08:52:25.954: Submission process FINISHED.

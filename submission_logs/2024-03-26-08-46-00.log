@@ -1,0 +1,18 @@
+[DEBUG] 2024-03-26 GMT-0400 08:46:00.883: The Username is set to (keyring app): cody.bogausch@sunycgcc.edu
+[DEBUG] 2024-03-26 GMT-0400 08:46:00.885: The Submission Password is set to (keyring app): ***
+[INFO] 2024-03-26 GMT-0400 08:46:00.885: Submission process STARTED.
+[INFO] 2024-03-26 GMT-0400 08:46:00.885: Asking for agreement.
+[DEBUG] 2024-03-26 GMT-0400 08:46:04.583: Agreement answer: I AGREE
+[DEBUG] 2024-03-26 GMT-0400 08:46:04.583: Task signature: sail2-project-author-classes-o-hcjnaayu-v2-c82f9dd1-8ae0-4e70-852c-5ecc03cead51
+[INFO] 2024-03-26 GMT-0400 08:46:04.583: Collecting information about context.
+[INFO] 2024-03-26 GMT-0400 08:46:04.651: Finding files for submission.
+[INFO] 2024-03-26 GMT-0400 08:46:04.651: Generating submission files for task 3.
+[INFO] 2024-03-26 GMT-0400 08:46:04.651: Evaluating task 3.
+[INFO] 2024-03-26 GMT-0400 08:46:04.815: Submission archive generated.
+[INFO] 2024-03-26 GMT-0400 08:46:04.815: Sending the submission to Sail() Auto-grading Service.
+[DEBUG] 2024-03-26 GMT-0400 08:46:06.165: AGS Success: True
+[DEBUG] 2024-03-26 GMT-0400 08:46:06.165: AGS Status: 200
+[DEBUG] 2024-03-26 GMT-0400 08:46:06.165: AGS Message: Your submission is in processing, submission token is: cody.bogausch@sunycgcc.edu_project-author-classes-o-hcjnaayu_c82f9dd1-8ae0-4e70-852c-5ecc03cead51_1250800401 Wait and check your code, score and feedback on your Learning Management System.
+[INFO] 2024-03-26 GMT-0400 08:46:06.168: Finding files for cleanup.
+[INFO] 2024-03-26 GMT-0400 08:46:06.169: Cleanup finished.
+[INFO] 2024-03-26 GMT-0400 08:46:06.169: Submission process FINISHED.
